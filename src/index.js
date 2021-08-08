@@ -46,7 +46,7 @@ switch(numToReadLength) {
 
 };
 
-console.log(result);
+return result;
 
 
 }
