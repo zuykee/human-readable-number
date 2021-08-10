@@ -2,7 +2,7 @@ module.exports = function toReadable (number) {
 
 let result = new String;
 let beforeTwenty = [ 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
-let decs = ['twenty', 'thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+let decs = ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
 let hunds = [ 'one hundred', 'two hundred', 'three hundred','four hundred', 'five hundred', 'six hundred', 'seven hundred', 'eight hundred', 'nine hundred'];
 let numToRead = String(number);
 let numToReadLength = numToRead.length;
